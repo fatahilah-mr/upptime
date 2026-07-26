@@ -2,11 +2,11 @@
 
 This repository contains the open-source uptime monitor and status page for [Fatahilah](fatahmr.my.id), powered by [Upptime](https://github.com/upptime/upptime).
 
-[![Uptime CI](https://github.com/fatahilah-mr/upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/uptime.yml)
-[![Response Time CI](https://github.com/fatahilah-mr/upptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/response-time.yml)
-[![Graphs CI](https://github.com/fatahilah-mr/upptime/workflows/Graphs%20CI/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/graphs.yml)
-[![Static Site CI](https://github.com/fatahilah-mr/upptime/workflows/Static%20Site%20CI/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/site.yml)
-[![Summary CI](https://github.com/fatahilah-mr/upptime/workflows/Summary%20CI/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/summary.yml)
+[![Uptime CI](https://github.com/fatahilah-mr/upptime/actions/workflows/uptime.yml/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/uptime.yml)
+[![Response Time CI](https://github.com/fatahilah-mr/upptime/actions/workflows/response-time.yml/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/response-time.yml)
+[![Graphs CI](https://github.com/fatahilah-mr/upptime/actions/workflows/graphs.yml/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/graphs.yml)
+[![Static Site CI](https://github.com/fatahilah-mr/upptime/actions/workflows/site.yml/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/site.yml)
+[![Summary CI](https://github.com/fatahilah-mr/upptime/actions/workflows/summary.yml/badge.svg)](https://github.com/fatahilah-mr/upptime/actions/workflows/summary.yml)
 
 With [Upptime](https://upptime.js.org), you can get your own unlimited and free uptime monitor and status page, powered entirely by a GitHub repository. We use [Issues](https://github.com/fatahilah-mr/upptime/issues) as incident reports, [Actions](https://github.com/fatahilah-mr/upptime/actions) as uptime monitors, and [Pages](https://fatahilah-mr.github.io/upptime) for the status page.
 
