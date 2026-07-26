@@ -55,10 +55,10 @@ sites:
 status-website:
   # --- PENGATURAN DOMAIN ---
   # Jika Anda menggunakan Custom Domain (misal: status.fatah.web.id), aktifkan 'cname' di bawah ini:
-  # cname: status.fatah.web.id
+  cname: status.fatah.web.id
 
   # Jika menggunakan domain default GitHub Pages (username.github.io/repo), gunakan 'baseUrl':
-  baseUrl: /upptime
+  # baseUrl: /upptime
 
   # --- TAMPILAN & BRANDING ---
   # URL Logo/Ikon di bagian header situs
