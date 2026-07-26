@@ -1,34 +1,97 @@
-# Change these first
-owner: fatahilah-mr # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# ==============================================================================
+# KONFIGURASI UTAMA UPPTIME
+# Documentation: https://upptime.js.org/docs/configuration
+# ==============================================================================
 
+# ------------------------------------------------------------------------------
+# 1. INFORMASI REPOSITORY GITHUB
+# ------------------------------------------------------------------------------
+# Username atau nama organisasi GitHub tempat repositori ini berada
+owner: fatahilah-mr
+
+# Nama repositori ini
+repo: upptime
+
+
+# ------------------------------------------------------------------------------
+# 2. DAFTAR SITES / WEBSITE YANG DIPANTAU
+# ------------------------------------------------------------------------------
+# Tambahkan atau hapus situs yang ingin dipantau dalam bentuk list YAML di bawah.
+# Format dasar:
+#   - name: Nama Tampilan Situs
+#     url: https://link-situs-anda.com
+#
+# Opsi Tambahan yang bisa Anda gunakan:
+#     icon: https://link-ke-favicon.png  # Favicon kustom
+#     method: POST                       # Defaultnya GET, bisa diubah ke POST/PUT/HEAD
+#     expectedStatusCodes:               # Status HTTP yang dianggap normal (default 200)
+#       - 200
+#       - 301
+# ------------------------------------------------------------------------------
 sites:
   - name: Web Gateway
     url: https://fatah.web.id
+
   - name: Web Portofolio
     url: https://fatahmr.my.id
+
   - name: Web Blog
     url: https://blog.fatah.web.id
+
   - name: Status Anymhost
     url: https://login.fatah.web.id
+
   - name: Web Arifin
     url: https://arifin.fatah.web.id
+
   - name: Web Kwettiau
     url: https://kwettiau.fatah.web.id
 
+
+# ------------------------------------------------------------------------------
+# 3. PENGATURAN WEBSITE STATUS (TAMPILAN HALAMAN GITHUB PAGES)
+# ------------------------------------------------------------------------------
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  # --- PENGATURAN DOMAIN ---
+  # Jika Anda menggunakan Custom Domain (misal: status.fatah.web.id), aktifkan 'cname' di bawah ini:
+  # cname: status.fatah.web.id
+
+  # Jika menggunakan domain default GitHub Pages (username.github.io/repo), gunakan 'baseUrl':
   baseUrl: /upptime
+
+  # --- TAMPILAN & BRANDING ---
+  # URL Logo/Ikon di bagian header situs
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+
+  # Nama Judul Situs (Tampil di Tab Browser & Header)
   name: Status Web Fatah
+
+  # Judul Besar di halaman utama (Mendukung format Markdown)
   introTitle: "**Status Web Fatah**"
+
+  # Deskripsi singkat di bawah judul utama
   introMessage: Halaman ketersediaan dan status real-time untuk semua layanan web Fatah.
+
+  # --- MENU NAVIGASI (NAVBAR) ---
+  # Link navigasi yang tampil di pojok kanan atas situs
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+
+# ------------------------------------------------------------------------------
+# 4. INTEGRASI NOTIFIKASI (OPSIONAL)
+# ------------------------------------------------------------------------------
+# Anda bisa mengaktifkan notifikasi otomatis jika ada situs yang DOWN/UP.
+# Cukup hapus tanda pagar (#) pada contoh di bawah ini dan masukkan token ke GitHub Secrets:
+#
+# notifications:
+#   - type: telegram
+#     botToken: $TELEGRAM_BOT_TOKEN   # Buat secret 'TELEGRAM_BOT_TOKEN' di GitHub
+#     chatId: $TELEGRAM_CHAT_ID       # Buat secret 'TELEGRAM_CHAT_ID' di GitHub
+#
+#   - type: discord
+#     webhookUrl: $DISCORD_WEBHOOK    # Buat secret 'DISCORD_WEBHOOK' di GitHub
+
