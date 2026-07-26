@@ -34,6 +34,7 @@ sites:
 
   - name: Web Portofolio
     url: https://fatahmr.my.id
+    icon: https://fatahmr.my.id/assets/favicon/favicon.svg
 
   - name: Web Blog
     url: https://blog.fatah.web.id
