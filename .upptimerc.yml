@@ -86,16 +86,11 @@ status-website:
 
 
 # ------------------------------------------------------------------------------
-# 4. INTEGRASI NOTIFIKASI (OPSIONAL)
+# 4. INTEGRASI NOTIFIKASI
 # ------------------------------------------------------------------------------
-# Anda bisa mengaktifkan notifikasi otomatis jika ada situs yang DOWN/UP.
-# Cukup hapus tanda pagar (#) pada contoh di bawah ini dan masukkan token ke GitHub Secrets:
-#
-# notifications:
-#   - type: telegram
-#     botToken: $TELEGRAM_BOT_TOKEN   # Buat secret 'TELEGRAM_BOT_TOKEN' di GitHub
-#     chatId: $TELEGRAM_CHAT_ID       # Buat secret 'TELEGRAM_CHAT_ID' di GitHub
-#
-#   - type: discord
-#     webhookUrl: $DISCORD_WEBHOOK    # Buat secret 'DISCORD_WEBHOOK' di GitHub
+notifications:
+  - type: telegram
+    prefix: "⚠️"
+    botToken: $NOTIFICATION_TELEGRAM_BOT_KEY
+    chatId: $NOTIFICATION_TELEGRAM_CHAT_ID
 
