@@ -42,6 +42,9 @@ sites:
   - name: Status Anymhost
     url: https://login.fatah.web.id
 
+  - name: PERISAI Media Sosial
+    url: https://perisai-media-sosial.vercel.app
+		
   - name: Web Arifin
     url: https://arifin.fatah.web.id
 
