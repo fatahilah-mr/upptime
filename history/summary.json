@@ -58,18 +58,20 @@
     "url": "https://login.fatah.web.id",
     "icon": "https://icons.duckduckgo.com/ip3/login.fatah.web.id.ico",
     "slug": "status-anymhost",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 875,
-    "timeDay": 661,
-    "timeWeek": 821,
-    "timeMonth": 875,
-    "timeYear": 875,
-    "dailyMinutesDown": {}
+    "time": 858,
+    "timeDay": 550,
+    "timeWeek": 773,
+    "timeMonth": 858,
+    "timeYear": 858,
+    "dailyMinutesDown": {
+      "2026-08-12": 0
+    }
   },
   {
     "name": "PERISAI Media Sosial",
