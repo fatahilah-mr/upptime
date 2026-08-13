@@ -58,20 +58,20 @@
     "url": "https://login.fatah.web.id",
     "icon": "https://icons.duckduckgo.com/ip3/login.fatah.web.id.ico",
     "slug": "status-anymhost",
-    "status": "down",
-    "uptime": "98.97%",
-    "uptimeDay": "81.93%",
-    "uptimeWeek": "97.42%",
-    "uptimeMonth": "98.97%",
-    "uptimeYear": "98.97%",
-    "time": 824,
-    "timeDay": 502,
-    "timeWeek": 705,
-    "timeMonth": 824,
-    "timeYear": 824,
+    "status": "up",
+    "uptime": "98.84%",
+    "uptimeDay": "79.60%",
+    "uptimeWeek": "97.09%",
+    "uptimeMonth": "98.84%",
+    "uptimeYear": "98.84%",
+    "time": 823,
+    "timeDay": 565,
+    "timeWeek": 716,
+    "timeMonth": 823,
+    "timeYear": 823,
     "dailyMinutesDown": {
       "2026-08-12": 144,
-      "2026-08-13": 117
+      "2026-08-13": 150
     }
   },
   {
